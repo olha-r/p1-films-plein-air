@@ -1,0 +1,311 @@
+body {
+  font-family: 'Merriweather', serif;
+  color: #1b1b2f;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  margin: 0 0;
+  padding-bottom: 3%;
+  color: #184a73;
+  text-shadow: 2px 2px #f05454;
+}
+
+h2 {
+  font-family: 'Eczar', serif;
+  font-size: 3rem;
+  color: #f05454;
+  margin: 0 0;
+  text-align: center;
+  padding: 2% 0 0 0;
+}
+
+h3 {
+  font-family: 'Eczar', serif;
+  font-size: 2.5rem;
+  line-height: 1.4;
+}
+
+@media (max-width:1000px) {
+  h1 {
+    font-size: 2rem;
+    padding-bottom: 0;
+  }
+
+  h2 {
+    font-size: 1.7rem;
+  }
+
+  h3 {
+    font-size: 1.2rem;
+    line-height: 1.1;
+  }
+}
+
+/* section Navigation */
+#navbarContent {
+  padding-right: 25px;
+}
+
+.navbar {
+  background-color: #1b1b2f;
+  padding: 0 0;
+}
+
+.navbar-brand {
+  font-family: 'Eczar', serif;
+  font-size: 1.5rem;
+  width: 40%;
+  margin: 3px 0 3px 50px;
+  color: #f2e2dd;
+}
+
+.navbar-brand img {
+  height: 10%;
+  width: 10%;
+  margin-right: 5%;
+}
+
+@media (max-width:1000px) {
+  .navbar-brand {
+    font-size: 0.7rem;
+    width: 20%;
+  }
+
+  .navbar-brand img {
+    height: 30%;
+    width: 30%;
+    margin-right: 15%;
+  }
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  color: #f05454;
+}
+
+/* section BANNIERE  */
+#banniere {
+  padding: 0;
+}
+
+figure {
+  margin: 0;
+}
+
+#photobanniere {
+  padding: 0;
+  width: 100%;
+  position: relative;
+}
+
+#textebanniere {
+  color: #1b1b2f;
+  position: absolute;
+  top: 15%;
+  left: 10%;
+  right: 10%;
+  text-align: center;
+}
+
+@media (max-width:1000px) {
+  #textebanniere {
+    color: #1b1b2f;
+    position: absolute;
+    top: 10%;
+    left: 1%;
+    right: 1%;
+    text-align: center;
+  }
+
+  .btn-films {
+    font-size: 1rem;
+    margin-top: 70px;
+  }
+}
+
+.btn {
+  background-color: #f05454;
+  border-color: #f05454;
+  color: #fbfbfb;
+  border-radius: 15px;
+}
+
+.btn:hover {
+  background-color: #1b1b2f;
+  border-color: #1b1b2f;
+  color: #f2e2dd;
+}
+
+/* section Films */
+#section-films {
+  background-color: #f2e2dd;
+}
+
+.carousel-item {
+  padding: 2% 13%;
+}
+
+.titre-carousel {
+  background-color: #184a73;
+  color: #f2e2dd;
+  padding: 2% 0;
+}
+
+.programme {
+  background-color: #f2e2dd;
+  padding: 5px;
+  border-style: none;
+}
+
+h4 {
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+}
+
+@media (max-width:1000px) {
+  #section-films {
+    position: relative;
+  }
+
+  .carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 75px;
+    height: 50px;
+  }
+}
+
+/* Modal */
+.modal-content {
+  background-color: #f2e2dd;
+}
+
+.btn-description {
+  background-color: #f2e2dd;
+  border-color: #f2e2dd;
+  color: #f05454;
+  border-radius: 15px;
+  text-decoration: none;
+}
+
+iframe {
+  width: 560px;
+  height: 315px;
+}
+
+@media (max-width:1000px) {
+  iframe {
+    width: 360px;
+    height: 245px;
+  }
+}
+
+/* end modal */
+/* section Actualités */
+#actualites {
+  background-color: #fbfbfb;
+}
+
+.card-header {
+  color: #184a73;
+}
+
+.card-link {
+  color: #f05454;
+}
+
+.information {
+  margin: 2% 5%;
+}
+
+.info {
+  height: 500px;
+  text-align: justify;
+}
+
+.info .card-title {
+  text-align: center;
+}
+
+h5 {
+  font-size: 1.7rem;
+  color: #184a73;
+}
+
+/* section Réservation */
+#section-reservation {
+  background-color: #f2e2dd;
+  padding-top: 15px;
+}
+
+.col-reservation {
+  padding: 3% 3% 7% 3%;
+}
+
+.btn-reservation {
+  margin-top: 20px;
+}
+
+.form-group {
+  padding: 10px;
+}
+
+/* section Footer */
+#footer {
+  text-align: center;
+  background-color: #1b1b2f;
+  color: #fbfbfb;
+  padding-top: 2%;
+  padding-bottom: 4%;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: #f05454;
+}
+
+#footer p {
+  margin-block-end: 0;
+}
+
+.info-contact {
+  padding: 5px;
+}
+
+.contacter {
+  text-decoration: none;
+  color: #f05454;
+}
+
+.contacter:hover {
+  color: #fbfbfb;
+}
+
+.copyright {
+  padding-top: 15px;
+}
+
+@media (max-width:1000px) {
+  #footer h4 {
+    font-size: 1rem;
+  }
+
+  #footer p, a {
+    font-size: 0.7rem;
+  }
+}
+
+.formation {
+  background-color: #f2e2dd;
+
+}
+
+.formation p {
+  text-align: center;
+  padding: 10px;
+    margin-block-end: 0;
+}

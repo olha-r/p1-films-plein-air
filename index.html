@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Festival des films de Plein Air</title>
+  <link rel="icon" href="images/favicon.ico">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Eczar:wght@400;500&family=Merriweather:wght@400;900&family=Playfair+Display:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+
+  <!-- CSS Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/55a2989d96.js" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+  <!--section Navigation-->
+  <section id="navigation">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark ">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.svg" alt="Site logo">Festival des Films de Plein Air</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div id="navbarContent" class="collapse navbar-collapse justify-content-end ">
+        <ul class="navbar-nav ">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section-films">Les films</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#actualites">Actualités</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#section-reservation">Réservation</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </section>
+
+  <!-- section BANNIERE -->
+  <section id="banniere" class="container-fluid ">
+    <figure>
+      <img id="photobanniere" src="images/photobanniere.jpg" alt="projection-en-plein-air">
+      <figcaption id="textebanniere">
+        <h1>Festival des Films de Plein Air</h1>
+        <h3>du 5 au 8 Août 2021<br>
+          Parc Monceau, Paris</h3>
+        <a href="#section-films">
+          <button type="button" class="btn-films btn btn-dark btn-lg" href="#selection-films">Voir les films</button>
+        </a>
+      </figcaption>
+    </figure>
+  </section>
+
+  <!-- section Films -->
+  <section id="section-films" class="container-fluid">
+    <div id="Films-carousel" class="carousel slide carousel-dark text-center" data-mdb-ride="carousel">
+      <h2>Notre sélection 2021</h2>
+      <div class="carousel-inner ">
+        <!-- 5 août -->
+        <div class="carousel-item active">
+          <div class="container">
+            <h4 class="titre-carousel">5 Août 2021</h4>
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="card programme">
+                  <h4 class="card-header">18h00 </br>
+                    PAPA OU MAMAN</h4>
+                  <img src="images/films/film1.jpeg" class="card-img-top" alt="image-film-papa-ou-maman" />
+                  <div class="card-body">
+                    <p class="card-text">Comédie - 1h25min </br>
+                      Réalisé par Martin Bourboulon </br>
+
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-description" data-bs-toggle="modal" data-bs-target="#film1">
+                        Voir bande annonce
+                      </button>
+
+                      <!-- Modal -->
+                    <div class="modal fade" id="film1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="film1Label" aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="film1Label">PAPA OU MAMAN</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <iframe src="https://www.youtube.com/embed/SXN2Re92lC4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn " data-bs-dismiss="modal">Fermer</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </p>
+                    <a href="#section-reservation" class="btn btn-dark">Réserver la place</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="card programme">
+                  <h4 class="card-header">20h00 </br>
+                    MON INCONNUE</h4>
+                  <img src="images/films/film2.jpeg" class="card-img-top" alt="image-film-mon-inconnue" />
+                  <div class="card-body">
+                    <p class="card-text"> Comédie, Romance - 1h 58min </br>
+                      Réalisé par Hugo Gélin </br>
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-description" data-bs-toggle="modal" data-bs-target="#film2">
+                        Voir bande annonce
+                      </button>
+
+                      <!-- Modal -->
+                    <div class="modal fade" id="film2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="film2Label" aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="film2Label">MON INCONNUE</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <iframe src="https://www.youtube.com/embed/5aKhtcNuoUU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn " data-bs-dismiss="modal">Fermer</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </p>
+                    <a href="#section-reservation" class="btn btn-dark">Réserver la place</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="card programme">
+                  <h4 class="card-header">22h00 <br>
+                    PASSENGERS </h4>
+                  <img src="images/films/film3.jpeg" class="card-img-top" alt="image-film-passengers" />
+                  <div class="card-body">
+                    <p class="card-text"> Science fiction - 1h 57min </br>
+                      Réalisé par Morten Tyldum </br>
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-description" data-bs-toggle="modal" data-bs-target="#film3">
+                        Voir bande annonce
+                      </button>
+
+                      <!-- Modal -->
+                    <div class="modal fade" id="film3" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="film3Label" aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="film3Label">PASSENGERS</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <iframe src="https://www.youtube.com/embed/ggigUv7yQ0A" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn " data-bs-dismiss="modal">Fermer</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </p>
+                    <a href="#section-reservation" class="btn btn-dark">Réserver la place</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 6 août -->
+        <div class="carousel-item">
+          <div class="container">
+            <h4 class="titre-carousel">6 Août 2021</h4>
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="card programme">
+                  <h4 class="card-header">18h00 </br>
+                    ROXANE</h4>
+                  <img src="images/films/film4.jpeg" class="card-img-top" alt="image-film-roxane" />
+                  <div class="card-body">
+                    <p class="card-text">Comédie - 1h 28min </br>
+                      Réalisé par Mélanie Auffret </br>
+
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-description" data-bs-toggle="modal" data-bs-target="#film4">
+                        Voir bande annonce
+                      </button>
+
+                      <!-- Modal -->
+                    <div class="modal fade" id="film4" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="film4Label" aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="film4Label">ROXANE</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <iframe src="https://www.youtube.com/embed/rjx_BcpJAcc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn " data-bs-dismiss="modal">Fermer</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </p>
+                    <a href="#section-reservation" class="btn btn-dark">Réserver la place</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="card programme">
+                  <h4 class="card-header">20h00 </br>
+                    LA LA LAND</h4>
+                  <img src="images/films/film5.jpeg" class="card-img-top" alt="image-film-lalaland" />
+                  <div class="card-body">
+                    <p class="card-text"> Comédie, Romance - 2h 08min </br>
+                      Réalisé par Damien Chazelle </br>
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-description" data-bs-toggle="modal" data-bs-target="#film5">
+                        Voir bande annonce
+                      </button>
+
+                      <!-- Modal -->
+                    <div class="modal fade" id="film5" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="film5Label" aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="film5Label">LA LA LAND</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <iframe src="https://www.youtube.com/embed/0tA70NaL7mY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn " data-bs-dismiss="modal">Fermer</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </p>
+                    <a href="#section-reservation" class="btn btn-dark">Réserver la place</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="card programme">
+                  <h4 class="card-header">22h00 <br>
+                    LE CYGNE NOIR </h4>
+                  <img src="images/films/film6.jpeg" class="card-img-top" alt="image-film-le-cygne-noir" />
+                  <div class="card-body">
+                    <p class="card-text"> Drame, Thriller - 1h 43min </br>
+                      Réalisé par Darren Aronofsky </br>
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-description" data-bs-toggle="modal" data-bs-target="#film6">
+                        Voir bande annonce
+                      </button>
+
+                      <!-- Modal -->
+                    <div class="modal fade" id="film6" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="film6Label" aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="film6Label">LE CYGNE NOIR</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <iframe src="https://www.youtube.com/embed/BwfH0HA-7Sw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn " data-bs-dismiss="modal">Fermer</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    </p>
+                    <a href="#section-reservation" class="btn btn-dark">Réserver la place</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 7 août -->
+        <div class="carousel-item">
+          <div class="container">
+            <h4 class="titre-carousel">7 Août 2021</h4>
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="card programme">
+                  <h4 class="card-header">18h00 </br>
+                    MON BÉBÉ</h4>
+                  <img src="images/films/film7.jpeg" class="card-img-top" alt="image-film-mon-bebe" />
+                  <div class="card-body">
+                    <p class="card-text">Comédie dramatique - 1h 25min </br>
+                      Réalisé par Lisa Azuelos </br>
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-description" data-bs-toggle="modal" data-bs-target="#film7">
+                        Voir bande annonce
+                      </button>
+
+                      <!-- Modal -->
+                    <div class="modal fade" id="film7" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="film7Label" aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="film7Label">MON BÉBÉ</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <iframe src="https://www.youtube.com/embed/WPPo_zCiB4Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn " data-bs-dismiss="modal">Fermer</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    </p>
+                    <a href="#section-reservation" class="btn btn-dark">Réserver la place</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="card programme">
+                  <h4 class="card-header">20h00 </br>
+                    LE BRIO</h4>
+                  <img src="images/films/film8.jpeg" class="card-img-top" alt="image-film-lalaland" />
+                  <div class="card-body">
+                    <p class="card-text"> Comédie, Drame - 1h 37min </br>
+                      Réalisé par Yvan Attal </br>
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-description" data-bs-toggle="modal" data-bs-target="#film8">
+                        Voir bande annonce
+                      </button>
+
+                      <!-- Modal -->
+                    <div class="modal fade" id="film8" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="film8Label" aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="film8Label">LE BRIO</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <iframe src="https://www.youtube.com/embed/xIDdSYMtI9U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn " data-bs-dismiss="modal">Fermer</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    </p>
+                    <a href="#section-reservation" class="btn btn-dark">Réserver la place</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="card programme">
+                  <h4 class="card-header">22h00 <br>
+                    JALOUSE </h4>
+                  <img src="images/films/film9.jpeg" class="card-img-top" alt="image-film-jalouse" />
+                  <div class="card-body">
+                    <p class="card-text"> Comédie - 1h 47min </br>
+                      Réalisé par David Foenkinos </br>
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-description" data-bs-toggle="modal" data-bs-target="#film9">
+                        Voir bande annonce
+                      </button>
+
+                      <!-- Modal -->
+                    <div class="modal fade" id="film9" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="film9Label" aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="film9Label">JALOUSE</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <iframe src="https://www.youtube.com/embed/rq_qe1Lf61U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn " data-bs-dismiss="modal">Fermer</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    </p>
+                    <a href="#section-reservation" class="btn btn-dark">Réserver la place</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 8 août -->
+        <div class="carousel-item">
+          <div class="container">
+            <h4 class="titre-carousel">8 Août 2021</h4>
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="card programme">
+                  <h4 class="card-header">18h00 </br>
+                    BEAUX-PARENTS</h4>
+                  <img src="images/films/film10.jpeg" class="card-img-top" alt="image-film-beaux-parents" />
+                  <div class="card-body">
+                    <p class="card-text">Comédie - 1h 24min </br>
+                      Réalisé par Héctor Cabello Reyes </br>
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-description" data-bs-toggle="modal" data-bs-target="#film10">
+                        Voir bande annonce
+                      </button>
+
+                      <!-- Modal -->
+                    <div class="modal fade" id="film10" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="film10Label" aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="film10Label">BEAUX-PARENTS</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <iframe src="https://www.youtube.com/embed/-Oi3OJtIT7Q" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn " data-bs-dismiss="modal">Fermer</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    </p>
+                    <a href="#section-reservation" class="btn btn-dark">Réserver la place</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="card programme">
+                  <h4 class="card-header">20h00 </br>
+                    UN HOMME PRESSÉ</h4>
+                  <img src="images/films/film11.jpeg" class="card-img-top" alt="images-film-un-homme-presse" />
+                  <div class="card-body">
+                    <p class="card-text"> Drame, Comédie - 1h 40min </br>
+                      Réalisé par Hervé Mimran </br>
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-description" data-bs-toggle="modal" data-bs-target="#film11">
+                        Voir bande annonce
+                      </button>
+
+                      <!-- Modal -->
+                    <div class="modal fade" id="film11" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="film11Label" aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="film11Label">UN HOMME PRESSÉ</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <iframe src="https://www.youtube.com/embed/Q06Fjn4klPI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn " data-bs-dismiss="modal">Fermer</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    </p>
+                    <a href="#section-reservation" class="btn btn-dark">Réserver la place</a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4">
+                <div class="card programme">
+                  <h4 class="card-header">22h00 <br>
+                    LES INVISIBLES</h4>
+                  <img src="images/films/film12.jpeg" class="card-img-top" alt="images-film-les-invisibles" />
+                  <div class="card-body">
+                    <p class="card-text"> Comédie, Drame - 1h 42min</br>
+                      Réalisé par Louis-Julien Petit </br>
+                      <!-- Button trigger modal -->
+                      <button type="button" class="btn btn-description" data-bs-toggle="modal" data-bs-target="#film12">
+                        Voir bande annonce
+                      </button>
+
+                      <!-- Modal -->
+                    <div class="modal fade" id="film12" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="film12Label" aria-hidden="true">
+                      <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="film12Label">LES INVISIBLES</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                            <iframe src="https://www.youtube.com/embed/8Y5NQYL0a5E" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn " data-bs-dismiss="modal">Fermer</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    </p>
+                    <a href="#section-reservation" class="btn btn-dark">Réserver la place</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <!-- Controls carousel -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#Films-carousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#Films-carousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+
+  <!--section Actualités-->
+  <section id="actualites" class="container-fluid ">
+    <h2>Actualités</h2>
+    <div class="information">
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card info">
+            <img src="images/parc-monceau.jpeg" class="card-img-top" alt="parc-monceau">
+            <div class="card-body">
+              <h5 class="card-title"> Le lieu du festival</h5>
+              <p class="card-text">TLorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse lectus risus, pretium ac feugiat pretium, laoreet ac libero. Phasellus a aliquam arcu. Orci varius natoque penatibus et magnis dis parturient
+                montes, nascetur ridiculus mus.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card  info">
+            <img src="images/movie.jpg" class="card-img-top" alt="images-movie">
+            <div class="card-body">
+              <h5 class="card-title">Les films projetés</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris efficitur augue lorem, nec gravida leo fermentum maximus. Cras tincidunt erat id enim ornare.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card info">
+            <img src="images/popcorn.jpeg" class="card-img-top" alt="image-popcorn">
+            <div class="card-body">
+              <h5 class="card-title">Les projections en plein air</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean imperdiet ornare neque. Suspendisse potenti. Nulla gravida suscipit ligula et aliquam. Duis convallis eros nec pretium cursus. Pellentesque pretium a
+                lectus in rutrum.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- section Réservation-->
+  <section id="section-reservation" class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <h2>Réservez gratuitement</h2>
+        <div class="col-lg-6 col-reservation">
+          <img src="images/admission.jpg" class="img-fluid" alt="cinema clap"></img>
+        </div>
+        <div class="col-lg-6 col-reservation">
+          <form class="needs-validation" novalidate id="bookingValidation">
+            <div class="form-group">
+              <label for="nom">Prénom Nom</label>
+              <input class="form-control" required type="text" name="nom" id="nom" placeholder="Jean Doe" />
+              <div class="invalid-tooltip">
+                Merci de renseigner vos prénom et nom.
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="mail">E-mail</label>
+              <input class="form-control" required type="email" name="mail" id="mail" placeholder="jeandoe@monmail.fr" />
+              <div class="invalid-tooltip">
+                Merci de renseigner votre e-mail.
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="place">Nombre de places</label>
+              <input class="form-control" type="number" name="place" id="place" min="1" value="1">
+            </div>
+            <div class="form-group">
+              <label for="seance">Séances</label>
+              <select class="form-control" required name="seance" id="seance">
+                <option value="" selected disabled>Ma séance</option>
+                <optgroup label="05/08/21">
+                  <option value="18h00">18h00 - Papa ou maman</option>
+                  <option value="20h00">20h00 - Mon inconnue</option>
+                  <option value="22h00">22h00 - Passengers</option>
+                </optgroup>
+                <optgroup label="06/08/21">
+                  <option value="18h00">18h00 - Roxane</option>
+                  <option value="20h00">20h00 - La la land</option>
+                  <option value="22h00">22h00 - Le cygne noir</option>
+                </optgroup>
+                <optgroup label="07/08/21">
+                  <option value="18h00">18h00 - Mon bébé</option>
+                  <option value="20h00">20h00 - Le Brio</option>
+                  <option value="22h00">22h00 - Jalouse</option>
+                </optgroup>
+                <optgroup label="08/08/21">
+                  <option value="18h00">18h00 - Beaux parents</option>
+                  <option value="20h00">20h00 - La lutte des classes</option>
+                  <option value="22h00">22h00 - Les invisibles</option>
+                </optgroup>
+              </select>
+              <div class="invalid-tooltip">
+                Merci de choisir votre séance.
+              </div>
+            </div>
+            <button type="submit" class="btn btn-dark btn-reservation">Je réserve !</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--section Footer-->
+  <footer id="footer">
+    <div class="">
+      <i class="social-icon fab fa-facebook-f"></i>
+      <i class="social-icon fab fa-instagram"></i>
+      <i class="social-icon fab fa-twitter"></i>
+      <a href="contact@films-plein-air.org"><i class="social-icon fas fa-envelope"></i></a>
+      <h4 class="info-contact">Contactez-nous</h4>
+      <p class="info-contact"> <strong>Téléphone:</strong> 01 00 00 00 00</p>
+      <p class="info-contact"> <strong>Adresse:</strong> 14 boulevard de Guerin, 75013 Paris</p>
+      <a class="info-contact contacter" href="contact@films-plein-air.org"> contact@films-plein-air.org</a>
+      <p class="copyright">© Copyright 2021 Festival des films en Plein Air</p>
+
+
+  </footer>
+  <div class="formation">
+    <p >Olha Safonova Raulet</p>
+    <p >Projet 1 - Formation Openclassrooms Développeur d'application - PHP</p>
+  </div>
+
+  <!-- Popper and Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+  <!-- Java Script -->
+  <!-- <script type="text/javascript">
+    var myModal = document.getElementById('myModal')
+    var myInput = document.getElementById('myInput')
+    console.log(myModal)
+
+    myModal.addEventListener('shown.bs.modal', function() {
+      myInput.focus()
+
+    })
+  </script> -->
+</body>
+
+</html>
